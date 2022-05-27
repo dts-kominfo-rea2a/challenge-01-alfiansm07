@@ -2,7 +2,7 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 
-
+// MUHAMMAD ALFIAN SYAH KELAS A
 
 /*
 name:string,
