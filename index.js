@@ -36,9 +36,9 @@ const firstUser = {
         {
             name: "SMA 03",
             city: "Tangerang"
-        },
+        }
     ],
-    favoiteRestaurant: new Set(['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'])
+    favoriteRestaurant: new Set(['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'])
 
 };
 
@@ -71,7 +71,7 @@ const secondUser = {
             city: "Tangerang"
         }
     ],
-    favoiteRestaurant: new Set(['Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'])
+    favoriteRestaurant: new Set(['Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'])
 
 
 };
