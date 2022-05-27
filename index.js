@@ -15,14 +15,25 @@ education:array,
 favoriteRestaurant:set
 */
 
+const arrColorMonica = ["Yellow", "Pink", "White", "Purple"];
+const arrRestoMonica = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento", "Eggy", "Padang", "Tteok", "Sushi", "Sushi"];
+
+let setColorMonica = new Set(arrColorMonica);
+let setRestoMonica = new Set(arrRestoMonica);
+
+const arrColorWendy = ["Blue", "Black", "Grey"];
+const arrRestoWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
+
+let setColorWendy = new Set(arrColorWendy);
+let setRestoWendy = new Set(arrRestoWendy);
+
 // monica
 const firstUser = {
     name: "Monica",
     gender: "Female",
     age: 17,
     email: "monica@dingdong.com",
-    favoriteColor: new Set(['Yellow', 'Pink', 'White', 'Purple']),
-    isHavePet: "Yes",
+    favoriteColor: [...setColorMonica],
     education: [{
             name: "SD 01",
             city: "Jakarta",
@@ -38,7 +49,7 @@ const firstUser = {
             city: "Tangerang"
         }
     ],
-    favoriteRestaurant: new Set(['Bento', 'Sushi', 'Pancake', 'Eggy', 'Tempura', 'Bento', 'Eggy', 'Padang', 'Tteok', 'Sushi', 'Sushi'])
+    favoriteRestaurant: [...setRestoMonica]
 
 };
 
@@ -49,7 +60,7 @@ const secondUser = {
     gender: "Male",
     age: 23,
     email: "wendy@dingdong.com",
-    favoriteColor: new Set(["blue", "Black", "Grey"]),
+    favoriteColor: [...setColorWendy],
     isHavePet: "No",
     education: [{
             name: "SD 02",
@@ -71,7 +82,7 @@ const secondUser = {
             city: "Tangerang"
         }
     ],
-    favoriteRestaurant: new Set(['Tempura', 'Bento', 'Sushi', 'Pancake', 'Padang', 'Katsu', 'Geprek', 'Pancake', 'Eggy'])
+    favoriteRestaurant: [...setRestoWendy]
 
 
 };
