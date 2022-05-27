@@ -29,6 +29,7 @@ const firstUser = {
     age: 17,
     email: "monica@dingdong.com",
     favoriteColor: [...setColorMonica],
+    isHavePet: "Yes",
     education: [{
             name: "SD 01",
             city: "Jakarta",
