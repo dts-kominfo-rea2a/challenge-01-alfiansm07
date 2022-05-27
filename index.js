@@ -21,11 +21,6 @@ const arrRestoMonica = ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Bento",
 let setColorMonica = new Set(arrColorMonica);
 let setRestoMonica = new Set(arrRestoMonica);
 
-const arrColorWendy = ["Blue", "Black", "Grey"];
-const arrRestoWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
-
-let setColorWendy = new Set(arrColorWendy);
-let setRestoWendy = new Set(arrRestoWendy);
 
 // monica
 const firstUser = {
@@ -52,6 +47,15 @@ const firstUser = {
     favoriteRestaurant: [...setRestoMonica]
 
 };
+
+
+
+const arrColorWendy = ["Blue", "Black", "Grey"];
+const arrRestoWendy = ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Pancake", "Eggy"];
+
+let setColorWendy = new Set(arrColorWendy);
+let setRestoWendy = new Set(arrRestoWendy);
+
 
 // wendy
 const secondUser = {
